@@ -131,8 +131,7 @@ def median_filter(img_matrix, kernel_size):
 
     return filtered_img
 
-# Example usage with a hypothetical 5x5 image and a 3x3 kernel
-filename = '/Users/sksx085/Desktop/各种实验报告等狗屎/数字图像处理/converted_image.bmp'  # 替换为你的BMP文件路径
+filename = '/Users/sksx085/Desktop/各种实验报告等狗屎/数字图像处理/converted_image.bmp' 
 image_matrix = read_bmp(filename)
 
 """
